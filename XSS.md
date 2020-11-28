@@ -7,5 +7,5 @@ output it generates without validating or encoding it.
 
 ## Prevention
 * Sanitize user inputs
-* Use HTTPOnly cookie flag
+* Use ```HTTPOnly``` cookie flag
 * Implement Content Security Policy
