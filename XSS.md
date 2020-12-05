@@ -6,13 +6,13 @@ end user. Flaws that allow these attacks to succeed are quite widespread and occ
 output it generates without validating or encoding it.
 
 ## Prevention
-* Sanitize user inputs. Especially when this input assigns to:
+- [ ] Sanitize user inputs. Especially when this input assigns to:
   * `document.URL`
   * `document.URLUnencoded`
   * `document.location` (and child properties)
   * `document.referrer`
   * `window.location`
-* Use `escapeHTML`
-* Use `textContent` instead of `innerHTML` when possible
-* Use `HTTPOnly` cookie flag
-* Implement Content Security Policy
+- [ ] Use `escapeHTML`
+- [ ] Use `textContent` instead of `innerHTML` when possible
+- [ ] Use `HTTPOnly` cookie flag
+- [ ] Implement Content Security Policy
