@@ -12,6 +12,7 @@ output it generates without validating or encoding it.
   * `document.location` (and child properties)
   * `document.referrer`
   * `window.location`
-
-* Use ```HTTPOnly``` cookie flag
+* Use `escapeHTML`
+* Use `textContent` instead of `innerHTML` when possible
+* Use `HTTPOnly` cookie flag
 * Implement Content Security Policy
